@@ -1,13 +1,173 @@
-body {
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&display=swap');
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  text-decoration: none;
+  list-style: none;
+
+} 
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+:root{
+
+
+  --first-color: #435334;
+  --first-color-2nd:#9EB384;
+  --first-color-alt:#9EB384;
+  --first-color-lighter:#CEDEBD;
+  --title-color:  #435334;
+  --text-color:#435334;
+  --text-color-light:#9EB384;
+  --input-color: #092532;
+  --body-color: #FAF1E4;
+  --container-color: #FAF1E4;
+  --scroll-bar-color:#CEDEBD;
+  --scroll-thumb-color:#9EB384;
+  
+
+  
+  --body-font:font-family: 'Lora', serif;
+  --big-font: 32px;
+  --h1:32px;
+  --h2:24px;
+  --h3:20px;
+  --normal-font: 16px;
+  --small-font:14px;
+  --smaller-font:12px;
+  --font-medium:500;
+  --font-semi-bold:600;
+
+  --mb-0-25:4px;
+  --mb-0-5:8px;
+  --mb-0-75:12px;
+  --mb-1:16px;
+  --mb-1-5:24px;
+  --mb-2:32px;
+  --mb-2-5:40px;
+  --mb-3:48px;
+
+  --z-tooltip:10;
+  --z-fixed:100;
+  --z-model:1000;
 }
+
+body {
+  min-height: 100vh;
+  overflow-x:hidden;
+  height: 100%;
+  color:teal;
+  font-family:'Lora', serif;;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.7;
+  background-color:lightcyan;
+  background-image: url("https://www.transparenttextures.com/patterns/foggy-birds.png");
+}
+
+
+
+
+
+h1,h2,h4{
+/* color: #435334; */
+font-weight: 600;
+}
+
+ul{
+list-style: none;
+}
+
+a{
+text-decoration: none;
+}
+
+
+
+.section{
+
+padding: 16px 0 64px;
+}
+
+.section-title{
+/* color: #435334; */
+font-size: 32px;
+
+}
+
+.section-subtitle{
+
+display: block;
+font-size: 16px;
+margin-bottom: 48px;
+
+
+}
+
+h3 ,p,.section-subtitle{
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: 300;
+}
+
+.section-title,.section-subtitle{
+text-align: center;
+}
+
+span{
+  font-size:16px;
+}
+
+.button{
+background:#263A29;
+background-image: -webkit-linear-gradient(top,#435334,#E9B384 );
+background-image: -moz-linear-gradient(top,#435334,#E9B384 );
+background-image: -ms-linear-gradient(top,#435334 ,#E9B384 );
+background-image: -o-linear-gradient(top,#435334,#E9B384);
+background-image: linear-gradient(to bottom,#435334, #E9B384);
+/* -webkit-border-radius: 28;
+-moz-border-radius: 28; */
+border-radius: 10px;
+box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+font-weight: 500;
+color: #ffff;
+font-size: 18px;
+padding: 10px;
+text-decoration: none;
+display: inline-block;
+width: fit-content;
+
+
+}
+
+.button:hover {
+background:#9EB384;
+transform: translateY(-0.5rem);
+background-image: -webkit-linear-gradient(top,#9EB384,#FAF1E4);
+background-image: -moz-linear-gradient(top, #9EB384,#FAF1E4);
+background-image: -ms-linear-gradient(top, #9EB384, #FAF1E4);
+background-image: -o-linear-gradient(top,#9EB384, #FAF1E4);
+background-image: linear-gradient(to bottom,#9EB384, #FAF1E4);
+text-decoration: none;
+color: #435334;
+}
+
+
+.button-icon{
+font-size: 20px;
+margin-left: 5px;
+transition:.3s;
+}
+.button-flex{
+display: inline-flex;
+align-items: center;
+}
+

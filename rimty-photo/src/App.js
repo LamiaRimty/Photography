@@ -4,8 +4,9 @@ import Cover from "./components/Cover/Cover";
 function App() {
   return (
     <div className="App">
-      <Cover/>
+     
      <Header/>
+     <Cover/>
     </div>
   );
 }

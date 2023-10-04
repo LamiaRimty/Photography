@@ -1,0 +1,38 @@
+.Parallax{
+    
+    /* position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; */
+    margin: 0;
+    padding:0;
+    
+
+}
+
+#text{
+    /* position: absolute;
+    font-size: 5rem;
+    color: aquamarine; */
+    color:seashell;
+    font-size: 80px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Parallax img{
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  pointer-events: none;
+}

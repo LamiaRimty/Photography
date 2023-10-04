@@ -1,9 +1,21 @@
+// function Header() {
+//   return (
+//     <section className="Header">
+//       <h2 className="logo">Fotografie</h2>
+//       <nav className="navigation">
+//
+//       </nav>
+//     </section>
+//   );
+// }
+// export default Header;
+
 import "./Header.css";
 
 function Header() {
   return (
     <section>
-      <nav className="navbar fixed-top navbar-expand-lg bg-body- ">
+      <nav className="navbar navbar-expand-lg bg-body- ">
         {/* <div class="container col-xxl-8 px-2 py-3 "> */}
         <div className="container-fluid col-xxl-8 px-2 py-3">
           <a className="navbar-brand" href="#home">
@@ -13,7 +25,7 @@ function Header() {
               src="https://h2.commercev3.net/cdn.brecks.com/images/800/89444A.jpg"
               alt="rimty"
             />
-            Fotografie
+            FOTO
           </a>
           <button
             className="navbar-toggler"

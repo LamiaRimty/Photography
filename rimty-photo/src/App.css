@@ -3,7 +3,7 @@
 }
 
 .animation{
-    display: block;
+    display:block;
     position: relative;
     z-index: 10;
 }
@@ -20,9 +20,7 @@
     position: fixed;
 }
 
-/* #sunrise{
-    background-image: url(images/sunrise.jpeg);
-} */
+
 
 #text{
     font-size: 80px;

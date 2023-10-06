@@ -35,7 +35,6 @@ function App() {
         <div className='animation-layer parallax' id='hill3'></div>
       </ParallaxLayer>
 
-      {/* <h2 id="text">Fotographie</h2> */}
 
       <ParallaxLayer offset={0} speed={-0.001}>
         <div className='animation-layer parallax' id='hill4'></div>

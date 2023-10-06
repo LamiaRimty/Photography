@@ -1,7 +1,7 @@
 import "./Cover.css";
 // import kayak from "../assets/kayak.mp4";
 function Cover() {
-  return (
+  return ( 
     <section className="cover">
       <div className="overlay"></div>
       <video className="cover-img" src="videos/banana.mp4" />

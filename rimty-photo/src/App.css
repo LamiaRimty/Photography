@@ -1,0 +1,72 @@
+.animation .animation-layer{
+    height: 1000px;
+}
+
+.animation{
+    display: block;
+    position: relative;
+    z-index: 10;
+}
+
+.animation-layer{
+    background-position: bottom center;
+    background-size: auto 1038px;
+    background-repeat: repeat-x;
+    width: 100%;
+    position:absolute;
+}
+
+.animation-layer .parallax{
+    position: fixed;
+}
+
+/* #sunrise{
+    background-image: url(images/sunrise.jpeg);
+} */
+
+#text{
+    font-size: 80px;
+    color: white;
+    position:absolute;
+    justify-content: center;
+    align-items: center;
+}
+
+#hill1{
+    background-image: url(images/hill1.png);
+}
+
+#hill2{
+    background-image: url(images/hill2.png);
+}
+#foto-logo{
+    background-image: url(images/foto.png);
+}
+#hill3{
+    background-image: url(images/hill3.png);
+}
+
+
+
+#hill4{
+    background-image: url(images/hill4.png);
+}
+
+#hill5{
+    background-image: url(images/hill5.png);
+}
+
+#leaf{
+    background-image: url(images/leaf.png);
+}
+
+#plant{
+    background-image: url(images/plant.png);
+    
+}
+
+#tree{
+    background-image: url(images/tree.png);
+    
+}
+

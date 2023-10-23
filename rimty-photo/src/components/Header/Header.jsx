@@ -1,15 +1,3 @@
-// function Header() {
-//   return (
-//     <section className="Header">
-//       <h2 className="logo">Fotografie</h2>
-//       <nav className="navigation">
-//
-//       </nav>
-//     </section>
-//   );
-// }
-// export default Header;
-
 import "./Header.css";
 
 function Header() {

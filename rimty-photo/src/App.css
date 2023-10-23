@@ -1,5 +1,17 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* body{
+    background-color: #f9f9f9;
+    min-height: 100vh;
+    overflow-x: hidden;
+} */
 .animation .animation-layer{
     height: 1000px;
+   
 }
 
 .animation{
@@ -18,13 +30,15 @@
 
 .animation-layer .parallax{
     position: fixed;
+    width: max-content;
+    object-fit: cover;
 }
 
-
+ 
 
 #text{
     font-size: 80px;
-    color: white;
+    color: burlywood;
     position:absolute;
     justify-content: center;
     align-items: center;
@@ -68,3 +82,11 @@
     
 }
 
+/* img{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    pointer-events: none;
+
+} */

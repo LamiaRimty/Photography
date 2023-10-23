@@ -2,11 +2,11 @@ import "./Parallax.css";
 
 function Parallax() {
   return (
-    <section className="Parallax">
+    <section className="Parallax ">
       {/* <div className="container-fluid col-xxl-8 px-2 py-3"> */}
       <h2 id="text">Fotographie</h2>
       {/* <p>Photography website by Lamia Rimty</p> */}
-      {/* </div> */}
+
       <img src="./images/hill1.png" id="hill1" alt="" />
       <img src="./images/hill2.png" id="hill2" alt="" />
       <img src="./images/hill3.png" id="hill3" alt="" />
@@ -16,7 +16,7 @@ function Parallax() {
       <h2 id="text">Fotographie</h2>
       <img src="./images/leaf.png" id="leaf" alt="" />
       <img src="./images/plant.png" id="plant" alt="" />
-
+      {/* </div> */}
       {/* <div className="Home">
         <h2 id="text">My Travel Photography Blog</h2>
         <p>

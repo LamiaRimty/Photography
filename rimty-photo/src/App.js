@@ -1,18 +1,18 @@
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 // import Parallax from "./components/Parallax/Parallax";
-// import Header from "./components/Header/Header";
-// import Cover from "./components/Cover/Cover";
+ import Header from "./components/Header/Header";
+ import Cover from "./components/Cover/Cover";
 // import Home from "./components/Home/Home";
 import './App.css';
 function App() {
   return (
     <div className="App">
-     {/* <Header/> */}
-     {/* <Cover/> */}
-     {/* <Parallax/> */}
+     <Header/> 
+    <Cover/> 
+     {/* <Parallax/>
 
 
-    <Parallax pages={2} style={{ top: '0', left: '0' }} className='animation'>
+    {/* <Parallax pages={2} style={{ top: '0', left: '0' }} className='animation'>
    
     <ParallaxLayer offset={0} speed={0.25}>
         <div className='animation-layer parallax' id='sunrise'></div>
@@ -60,7 +60,7 @@ function App() {
 
 
 
-    </Parallax>
+    </Parallax>  */}
 
 
      {/* <Home/> */}

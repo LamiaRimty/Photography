@@ -3,17 +3,18 @@ import "./Header.css";
 function Header() {
   return (
     <section>
-      <nav className="navbar navbar-expand-lg bg-body- ">
+      <nav className="navbar navbar-expand-lg bg-body-">
         {/* <div class="container col-xxl-8 px-2 py-3 "> */}
         <div className="container-fluid col-xxl-8 px-2 py-3">
           <a className="navbar-brand" href="#home">
             <img
               id="header-img"
               height="30"
-              src="https://h2.commercev3.net/cdn.brecks.com/images/800/89444A.jpg"
+              src="images/rimty-logo.png"
+              // src="https://h2.commercev3.net/cdn.brecks.com/images/800/89444A.jpg"
               alt="rimty"
             />
-            FOTO
+            {/* FOTO */}
           </a>
           <button
             className="navbar-toggler"

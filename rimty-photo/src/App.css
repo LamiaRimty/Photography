@@ -1,15 +1,15 @@
-*{
+/* *{
     margin:0;
     padding:0;
     box-sizing: border-box;
-}
+} */
 
 /* body{
     background-color: #f9f9f9;
     min-height: 100vh;
     overflow-x: hidden;
-} */
-.animation .animation-layer{
+/* } */
+/* .animation .animation-layer{
     height: 1000px;
    
 }
@@ -80,7 +80,7 @@
 #tree{
     background-image: url(images/tree.png);
     
-}
+} */
 
 /* img{
     position: absolute;

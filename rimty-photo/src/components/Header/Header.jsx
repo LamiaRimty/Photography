@@ -11,10 +11,8 @@ function Header() {
               id="header-img"
               height="30"
               src="images/rimty-logo.png"
-              // src="https://h2.commercev3.net/cdn.brecks.com/images/800/89444A.jpg"
               alt="rimty"
             />
-            {/* FOTO */}
           </a>
           <button
             className="navbar-toggler"

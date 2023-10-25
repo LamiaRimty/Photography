@@ -71,8 +71,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   line-height: 1.7;
-  /* background-color:rgb(5, 35, 32);  */
- /* background-image: url("https://www.transparenttextures.com/patterns/foggy-birds.png"); */
+  background-color:rgb(5, 35, 32);  
+background-image: url("https://www.transparenttextures.com/patterns/foggy-birds.png");
 }
 
 

@@ -1,36 +1,28 @@
-.navbar{
-    background: transparent;
-    height: 80px;
+.navbar-brand{
+    right: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+    color: var( --first-color);
+    cursor: pointer;
     display: flex;
-    justify-content:center ;
-}
-
-nav{
-  background-color: transparent;
-    padding: 0 15px;
-    color:white;
-    transition: 0.5s ease;
-
-}
-
-
+    flex: 0.5;
+    gap:5px;
+   
+  }
 
 #header-img{
-    height: 50px;
-    width: 50px;
-    background-color:beige;
+    background-color: #9EB384;
     border-radius: 50%;
-    box-shadow: 0 4px 8px 0 rgba(214, 228, 89, 0.2), 0 6px 20px 0 rgba(118, 210, 243, 0.19);
-
-}
-.nav-link :active{
-    color:white;
+    height: 100px;
+    width: 100px;
+    /* margin-left:15px ; */
 }
 
 .nav-link{
     align-items: center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:white;
+    color: var(--first-color-2nd);
     font-size: 18px;
     font-weight: 400;
 }
@@ -39,18 +31,23 @@ nav{
     color: #9EB384;
 }
 
+#active-nav{
+    font-weight:600 ;
+    color: #f9f9f9;
+}
 
 
+.header-icon{
+    /* color: #9EB384; */
+    color:#9EB384;
+}
+
+.nav-item{
+    
+    padding: 0px 10px;
+}
 
 .header-icon:hover{
-    color: #9EB384;
+    color: #f9f9f9;
    
 }
-
-nav .nav-link ,#active-nav , .nav-item , .header-icon{
-    color:#f9f9f9;
-    margin-left: 30px;
-    font-weight: 500;
-    transition: 0.3s ease;
-}
-

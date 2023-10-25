@@ -3,7 +3,7 @@ import "./Header.css";
 function Header() {
   return (
     <section>
-      <nav className="navbar navbar-expand-lg bg-body-">
+      <nav className="navbar navbar-expand-lg bg-body- ">
         {/* <div class="container col-xxl-8 px-2 py-3 "> */}
         <div className="container-fluid col-xxl-8 px-2 py-3">
           <a className="navbar-brand" href="#home">
@@ -42,19 +42,31 @@ function Header() {
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="#gallery">
-                  Gallery
+                <a className="nav-link" href="#gallary">
+                  Gallary
                 </a>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="#Blogs">
+                <a className="nav-link" href="#portfolio">
                   Blogs
                 </a>
               </li>
               <li className="nav-item">
+                <a className="nav-link" href="#skills">
+                  Skills
+                </a>
+              </li>
+
+              <li className="nav-item">
                 <a className="nav-link" href="#about">
                   About
+                </a>
+              </li>
+
+              <li className="nav-item">
+                <a className="nav-link" href="#contact">
+                  Contact
                 </a>
               </li>
             </ul>
@@ -64,7 +76,16 @@ function Header() {
               className=" nav col-md-4 justify-content-end list-unstyled d-flex "
               id="social-links"
             >
-              <li className="ms-3 social-links" id="social-links">
+              <li className="ms-3 social-link" id="social-links">
+                <a
+                  className="footer-link text-body-secondary"
+                  href="https://www.instagram.com/ik_rimty/"
+                >
+                  <i className="fa-brands fa-instagram header-icon"></i>
+                </a>
+              </li>
+
+              <li className="ms-3 social-link" id="social-links">
                 <a
                   className="footer-link text-body-secondary"
                   href="https://www.facebook.com/L.J.Rimty"
@@ -72,14 +93,7 @@ function Header() {
                   <i className="fa-brands fa-facebook header-icon"></i>
                 </a>
               </li>
-              <li className="ms-3 social-links" id="social-links">
-                <a
-                  className="footer-link text-body-secondary"
-                  href="https://www.instagram.com/ik_rimty?fbclid=IwAR16dk9evu7OMdz1STbLtI2xAwTaPAo6KdBDXHD9kek9bcdvgtgEK9f7qIw"
-                >
-                  <i className="fa-brands fa-instagram header-icon"></i>
-                </a>
-              </li>
+
               <li className="ms-3 social-link" id="social-links">
                 <a
                   className="footer-link text-body-secondary"

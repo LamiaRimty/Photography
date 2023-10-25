@@ -100,7 +100,7 @@ padding: 16px 0 64px;
 }
 
 .section-title{
-/* color: #435334; */
+color:#CEDEBD;
 font-size: 32px;
 
 }
@@ -110,6 +110,7 @@ font-size: 32px;
 display: block;
 font-size: 16px;
 margin-bottom: 48px;
+color: #f9f9f9;
 
 
 }

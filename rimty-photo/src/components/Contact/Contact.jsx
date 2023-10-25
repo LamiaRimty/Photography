@@ -30,7 +30,7 @@ function Contact() {
       <div className="container col-xxl-8 px-4 py-5">
         <div className="animate__animated animate__slideInLeft">
           {/* <!-- INFO 1 --> */}
-          <div className="contact-info">
+          {/* <div className="contact-info">
             <i className="uil uil-phone contact-icon"></i>
             <div>
               <h2 className="contact-title">Phone</h2>
@@ -44,7 +44,7 @@ function Contact() {
                 </a>
               </span>
             </div>
-          </div>
+          </div> */}
 
           {/* <!-- INFO 2--> */}
           <div className="contact-info">
@@ -66,12 +66,12 @@ function Contact() {
 
             <div>
               <h2 className="contact-title">Location</h2>
-              <span className="contact-subtitle">Almere, Netherlands</span>
+              <span className="contact-subtitle">Netherlands</span>
             </div>
           </div>
         </div>
 
-        {/* <form
+        <form
           ref={form}
           onSubmit={sendEmail}
           className="contact-form grid animate__animated animate__slideInRight"
@@ -122,7 +122,7 @@ function Contact() {
               <i className="uil uil-message button-icon"></i>
             </a>
           </div>
-        </form> */}
+        </form>
       </div>
       <div className="b-example-divider"></div>
     </section>

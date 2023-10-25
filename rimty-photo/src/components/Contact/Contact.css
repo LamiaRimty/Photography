@@ -7,24 +7,27 @@
 
 .contact-icon{
     font-size: 32px;
-    color: var(--first-color);
+    color:var(--first-color-2nd);
     margin-right:var(--mb-0-75);
 }
 
 .contact-title{
     font-size: 18px;
     font-weight: bold;
-    color: var(--first-color);
+    color: var(--first-color-2nd);
    
 }
 .contact-subtitle{
     font-size: 20px;
-    color: var(--text-color-2nd);
+    color: #f9f9f9;
     
 }
-#phone{
- color: #435334;
+#email-id{
+    color: var(--first-color-2nd);
 }
+/* #phone{
+ color: #435334;
+} */
 .contact-content{
     background-color: var(--first-color-lighter);
     border-radius: 8px;
@@ -46,6 +49,6 @@
     padding: 4px 8px 8px 0;
 }
 
-.email-id{
-    color: var(--first-color);
+a{
+    color: #f9f9f9;
 }

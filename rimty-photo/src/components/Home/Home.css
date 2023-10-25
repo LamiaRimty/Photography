@@ -1,18 +1,36 @@
-.Home{
-    position:relative;
-    background-color:#003329;
-    padding:100px;
-    margin-top: 650px;
-    
+
+.container-home {
+    text-align: center;
+   
 }
 
-.text{
-    font-size: 20px;
-    color: white;
-    margin-bottom: 10px;
+h3{
+    
+    color: #f9f9f9;
+    outline: none;
+    font-style: italic;
 }
-.desc{
-    font-size: 16px;
-    color: #fff;
-    font-weight: 300;
+
+.home-title{
+
+   align-items: center;
+   font-family: lora;
+    margin-top: 20px;
+    font-size: 30px;
+    color: #f9f9f9;
+    font-weight: 900;
+    /* font-style: italic */
 }
+
+
+.home-img{
+
+object-fit: cover;
+width: 100%;
+align-items: center;
+position: relative;
+border-radius: 5%;
+box-shadow: 0 4px 8px 0 rgba(199, 246, 243, 0.2), 0 6px 20px 0 rgba(158, 234, 228, 0.191);
+}
+
+

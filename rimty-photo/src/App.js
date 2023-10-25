@@ -1,8 +1,9 @@
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 import Header from "./components/Header/Header";
-import Home from "./components/Home/Home";
+import Skills from "./components/Skills/Skills";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
+import Home from "./components/Home/Home";
 import './App.css';
 // import Parallax from "./components/Parallax/Parallax";
 
@@ -11,7 +12,8 @@ function App() {
   return (
     <div className="App">
       <Header/>
-        <Home/>
+      <Home/>
+      <Skills/>
      <Contact/>
      <Footer/>
       {/* <Cover/>  */}

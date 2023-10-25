@@ -1,29 +1,34 @@
 import "./Home.css";
+{
+  /* <img src="https://thumbs.dreamstime.com/b/woman-riding-bicycle-amsterdam-realistic-image-hand-drawing-style-34006004.jpg"/>
+   */
+}
 
 function Home() {
   return (
-    <section className="Home">
-      {/* <div className="container-fluid col-xxl-8 px-2 py-3"> */}
-      <h2 className="text">My Travel Photography Blog</h2>
-      <p className="desc">
-        Photography website by Lamia Rimty Contrary to popular belief, Lorem
-        Ipsum is not simply random text. It has roots in a piece of classical
-        Latin literature from 45 BC, making it over 2000 years old. Richard
-        McClintock, a Latin professor at Hampden-Sydney College in Virginia,
-        looked up one of the more obscure Latin words, consectetur, from a Lorem
-        Ipsum passage, and going through the cites of the word in classical
-        literature, discovered the undoubtable source. Lorem Ipsum comes from
-        sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The
-        Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a
-        treatise on the theory of ethics, very popular during the Renaissance.
-        The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes
-        from a line in section 1.10.32. The standard chunk of Lorem Ipsum used
-        since the 1500s is reproduced below for those interested. Sections
-        1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are
-        also reproduced in their exact original form, accompanied by English
-        versions from the 1914 translation by H. Rackham.
-      </p>
-    </section>
+    <>
+      <section className="home">
+        <div className="container container-home col-xxl-8 px-4 py-4">
+          <div className="col-10 col-sm-8 col-lg-6  home-img animate__animated animate__zoomInDown  animate__delay-1s">
+            <img
+              className="home-img col-xxl-8 px-4 py-4"
+              alt=""
+              // src="https://img.freepik.com/premium-vector/happy-girl-dressed-trendy-clothes-riding-city-bicycle-with-flower-bouquet-front-basket-adorable-young-hipster-woman-bike-cute-pedaling-female-bicyclist-flat-cartoon-vector-illustration_198278-12371.jpg"
+              src="images/pngegg.png"
+            />
+          </div>
+          <div className="home-title">
+            {/* <h1 className="home-headingLg">Memoir</h1> */}
+            <h1 className="home-headingSm">
+              Travel Photography Blog by{" "}
+              <a href="https://www.linkedin.com/in/lamia-jabin-rimty-0020a2219/">
+                <h3>Lamia Jabin Rimty</h3>
+              </a>
+            </h1>
+          </div>
+        </div>
+      </section>
+    </>
   );
 }
 export default Home;

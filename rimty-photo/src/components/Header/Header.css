@@ -12,17 +12,17 @@
   }
 
 #header-img{
-    background-color: #9EB384;
+    background-color: #f9f9f9;;
     border-radius: 50%;
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
     /* margin-left:15px ; */
 }
 
 .nav-link{
     align-items: center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: var(--first-color-2nd);
+    color: #f9f9f9;
     font-size: 18px;
     font-weight: 400;
 }
@@ -33,13 +33,13 @@
 
 #active-nav{
     font-weight:600 ;
-    color: #f9f9f9;
+    color: #9EB384;
 }
 
 
 .header-icon{
     /* color: #9EB384; */
-    color:#9EB384;
+    color: #f9f9f9;
 }
 
 .nav-item{

@@ -4,6 +4,7 @@ import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 import Cover from "./components/Cover/Cover";
 import Home from "./components/Home/Home";
 import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 import './App.css';
 function App() {
   return (
@@ -68,6 +69,7 @@ function App() {
 
      <Home/>
      <Contact/>
+     <Footer/>
     </div>
   );
 }

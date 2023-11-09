@@ -1,9 +1,11 @@
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 import Header from "./components/Header/Header";
-import Skills from "./components/Skills/Skills";
+import Home from "./components/Home/Home";
+import About from "./components/About/About";
+import Gallery from "./components/Gallery/Gallery";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
-import Home from "./components/Home/Home";
+
 import './App.css';
 // import Parallax from "./components/Parallax/Parallax";
 
@@ -13,7 +15,8 @@ function App() {
     <div className="App">
       <Header/>
       <Home/>
-      <Skills/>
+     <About/>
+      <Gallery/>
      <Contact/>
      <Footer/>
       {/* <Cover/>  */}

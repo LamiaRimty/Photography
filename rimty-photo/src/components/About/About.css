@@ -1,0 +1,39 @@
+.about-title{
+    font-size: 32px;
+}
+
+.about-subtitle{
+    font-size: var(--h3);
+    color:var(--title-color);
+    font-weight: var(--font-medium);
+    
+}
+
+  .about-img{
+    
+    margin:auto;
+  
+    border-radius: 8px;
+    justify-content: center;
+    align-self: center;
+    width:280px;
+    height:300px;
+    
+  }
+  #rimty{
+    border-radius:10px;
+    border: 15px solid #CEDEBD;
+  }
+
+  #about-desc{
+    font-size: 20px;
+    justify-content:center;
+    color:#f9f9f9;
+  }
+
+  .about-button
+  {
+    display: flex;
+    justify-content: center;
+}
+

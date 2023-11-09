@@ -5,7 +5,7 @@ import About from "./components/About/About";
 import Gallery from "./components/Gallery/Gallery";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
-
+import Blogs from "./components/Blogs/Blogs";
 import './App.css';
 // import Parallax from "./components/Parallax/Parallax";
 
@@ -17,6 +17,7 @@ function App() {
       <Home/>
      <About/>
       <Gallery/>
+      <Blogs/>
      <Contact/>
      <Footer/>
       {/* <Cover/>  */}

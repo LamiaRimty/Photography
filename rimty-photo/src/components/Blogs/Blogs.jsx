@@ -4,6 +4,12 @@ function Blogs() {
   return (
     <section id="Blogs">
       <div class="album py-5 bg-body-">
+        <h2 className="section-title">Photo Album</h2>
+        <span className="section-subtitle">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s.
+        </span>
         <div class="container">
           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
             <div class="col">

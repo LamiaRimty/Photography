@@ -1,0 +1,42 @@
+/* #GalleryCube{
+    position:relative;
+
+    height: 100%;
+    padding:100px;
+    margin: 50px 0 50px 0;
+
+    
+}
+
+.text{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 10px;
+}
+.desc{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.swiper {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+
+    top: 50%;
+
+  }
+  
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .swiper-slide img {
+
+    display: block;
+    height: 500px;
+    width: 500px;
+   
+  } */

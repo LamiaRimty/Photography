@@ -11,6 +11,7 @@ function Header() {
               id="header-img"
               height="30"
               src="images/rimty-logo.png"
+              // src="images/rimty-logo-strock.png"
               alt="rimty"
             />
           </a>
@@ -42,25 +43,20 @@ function Header() {
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="#gallary">
-                  Gallary
-                </a>
-              </li>
-
-              <li className="nav-item">
-                <a className="nav-link" href="#portfolio">
-                  Blogs
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#skills">
-                  Skills
-                </a>
-              </li>
-
-              <li className="nav-item">
                 <a className="nav-link" href="#about">
                   About
+                </a>
+              </li>
+
+              <li className="nav-item">
+                <a className="nav-link" href="#gallery">
+                  Gallery
+                </a>
+              </li>
+
+              <li className="nav-item">
+                <a className="nav-link" href="#blogs">
+                  Blogs
                 </a>
               </li>
 

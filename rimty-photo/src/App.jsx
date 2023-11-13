@@ -7,27 +7,23 @@ import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import Blogs from "./components/Blogs/Blogs";
 
-import './App.css';
+import "./App.css";
 // import Parallax from "./components/Parallax/Parallax";
 
 // import Cover from "./components/Cover/Cover";
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <Home/>
-      <About/>
-    <Gallery/>
-     
-  
-      <Blogs/>
-    
-     <Contact/>
-     <Footer/>
+      <Header />
+      <Home />
+      <About />
+      <Gallery />
+      <Blogs />
+      <Contact />
+      <Footer />
       {/* <Cover/>  */}
-    
-    
-     {/* <Parallax/>
+
+      {/* <Parallax/>
 
 
     {/* <Parallax pages={2} style={{ top: '0', left: '0' }} className='animation'>
@@ -79,9 +75,6 @@ function App() {
 
 
     </Parallax>  */}
-
-
-
     </div>
   );
 }

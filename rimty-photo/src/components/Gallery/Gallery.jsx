@@ -10,11 +10,11 @@ import "swiper/css/pagination";
 import "./Gallery.css";
 
 // import required modules
-import { EffectCoverflow, Pagination } from "swiper/modules";
+import { Autoplay, EffectCoverflow, Pagination } from "swiper/modules";
 
 function Gallery() {
   return (
-    <section id="Gallery">
+    <section id="gallery">
       <h2 className="section-title">My Gallery</h2>
       <span className="section-subtitle">Some of my favourite snaps!!! 📸</span>
       <div className="container gallery-container col-xxl-8 px-2 py-3">
@@ -23,6 +23,10 @@ function Gallery() {
           grabCursor={true}
           centeredSlides={true}
           loop={true}
+          autoplay={{
+            delay: 1000,
+            disableOnInteraction: false,
+          }}
           slidesPerView={"auto"}
           coverflowEffect={{
             rotate: 50,
@@ -32,7 +36,7 @@ function Gallery() {
             slideShadows: true,
           }}
           pagination={true}
-          modules={[EffectCoverflow, Pagination]}
+          modules={[Autoplay, EffectCoverflow, Pagination]}
           className="mySwiper"
         >
           <SwiperSlide>

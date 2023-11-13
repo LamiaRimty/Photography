@@ -2,7 +2,7 @@ import "./Blogs.css";
 
 function Blogs() {
   return (
-    <section id="Blogs">
+    <section id="blogs">
       <div class="album py-5 bg-body-">
         <h2 className="section-title">Photo Album</h2>
         <span className="section-subtitle">

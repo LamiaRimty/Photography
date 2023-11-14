@@ -1,4 +1,5 @@
 //import { Parallax, ParallaxLayer } from '@react-spring/parallax';
+
 import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
 import Gallery from "./components/Gallery/Gallery";

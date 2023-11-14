@@ -16,7 +16,7 @@ function Gallery() {
   return (
     <section id="gallery">
       <h2 className="section-title">My Gallery</h2>
-      <span className="section-subtitle">Some of my favourite snaps!!! 📸</span>
+      <span className="section-subtitle">Some of my favourite snaps!!!📸</span>
       <div className="container gallery-container col-xxl-8 px-2 py-3">
         <Swiper
           effect={"coverflow"}

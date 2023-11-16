@@ -1,0 +1,55 @@
+ .blogs{
+display: flex;
+gap:3rem;
+}
+
+.right-section{
+    flex-grow: 1;
+}
+
+button
+{
+    all:unset;
+}
+
+button:hover{
+cursor: pointer;
+}
+
+button:active{
+    scale:0.9;
+}
+
+.left-section.flex{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+ 
+}
+
+.left-section.flex button{
+    background-color:teal;
+    color: aliceblue;
+    width: 176px;
+    padding: 12px 0;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 16px;
+    text-transform: capitalize;
+    opacity: 0.5;
+
+}
+.flex{
+    align-items: start;
+}
+.left-section.flex button.active{
+    opacity: 1;
+    font-weight: bold;
+    letter-spacing: 0.6px;
+    padding:13px 0 ;
+    border: 1px solid #FDE5D4;
+}
+
+.left-section.flex button:hover{
+    opacity: 1;
+}

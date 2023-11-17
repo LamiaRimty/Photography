@@ -337,13 +337,32 @@ function Blogs() {
     <div className="blogs">
       <section className="flex left-section">
         <button className="active">All Blogs</button>
+        <button>Bangladesh</button>
         <button>Netherlands</button>
         <button>Belgium</button>
         <button>Luxemburg</button>
         <button>Bulgaria</button>
       </section>
 
-      <section className="right-section">RRRR</section>
+      <section className="right-section">
+        <article className="card">
+          <img className="blog-img" src="images/keukenof.jpg" alt="" />
+          <div style={{ width: "266px" }} className="box">
+            <h4 className="title">Keukenof Garden</h4>
+            <span className="subtitle">📍Lisse,The Netherlands</span>
+            <p className="desc">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <div className="flex icons">
+              <div className="date">⏱20-03-2023</div>
+              <a>
+                <span className="more">More</span>
+              </a>
+            </div>
+          </div>
+        </article>
+      </section>
     </div>
   );
 }

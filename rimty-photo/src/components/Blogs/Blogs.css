@@ -4,7 +4,7 @@ gap:3rem;
 }
 
 .right-section{
-    flex-grow: 1;
+    /* flex-grow: 1; */
 }
 
 button
@@ -52,4 +52,37 @@ button:active{
 
 .left-section.flex button:hover{
     opacity: 1;
+}
+
+.more{
+   color: green;
+}
+
+.blog-img{
+    width: 266px;
+}
+
+.card .box {
+padding: 16px 8px;
+}
+
+.card .box .title{
+    color: var(--first-color);
+}
+
+.card .box .subtitle{
+   font-size: 12px;
+   margin-top:10px ;
+   margin-bottom: 10px;
+   
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.more{
+    align-self: self-end;
+    left:10px;
 }

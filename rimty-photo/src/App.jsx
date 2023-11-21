@@ -6,78 +6,36 @@ import Gallery from "./components/Gallery/Gallery";
 import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
-import Blogs from "./components/Blogs/Blogs";
 
 import "./App.css";
+import Blog from "./components/Blog/Blog";
 // import Parallax from "./components/Parallax/Parallax";
 
 // import Cover from "./components/Cover/Cover";
+
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  //Redirect,Navigate
+} from "react-router-dom";
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Home />
+    <Router>
+      <div className="App">
+        <Header />
 
-      <Gallery />
-      <Blogs />
-      <About />
-      <Contact />
-      <Footer />
-      {/* <Cover/>  */}
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route path="/Gallery" element={<Gallery />} />
 
-      {/* <Parallax/>
-
-
-    {/* <Parallax pages={2} style={{ top: '0', left: '0' }} className='animation'>
-   
-    <ParallaxLayer offset={0} speed={0.25}>
-        <div className='animation-layer parallax' id='sunrise'></div>
-      </ParallaxLayer>
-
-
-      <ParallaxLayer offset={0} speed={0.3}>
-        <div className='animation-layer parallax' id='hill1'></div>
-      </ParallaxLayer>
-
-      <ParallaxLayer offset={0} speed={-0.1}>
-        <div className='animation-layer parallax' id='hill2'></div>
-      </ParallaxLayer>
-
-      <ParallaxLayer offset={0} speed={0.3}>
-        <div className='animation-layer parallax' id='foto-logo'></div>
-      </ParallaxLayer>
-
-      <ParallaxLayer offset={0} speed={0.1}>
-        <div className='animation-layer parallax' id='hill3'></div>
-      </ParallaxLayer>
-
-
-      <ParallaxLayer offset={0} speed={-0.001}>
-        <div className='animation-layer parallax' id='hill4'></div>
-      </ParallaxLayer>
-
-      <ParallaxLayer offset={0} speed={0.001}>
-        <div className='animation-layer parallax' id='hill5'></div>
-      </ParallaxLayer>
-
-      <ParallaxLayer offset={0} speed={0.45}>
-        <div className='animation-layer parallax' id='leaf'></div>
-      </ParallaxLayer>
-
-      <ParallaxLayer offset={0} speed={-0.03}>
-        <div className='animation-layer parallax' id='plant'></div>
-      </ParallaxLayer>
-
-      <ParallaxLayer offset={0} speed={-0.03}>
-        <div className='animation-layer parallax' id='tree'></div>
-      </ParallaxLayer>
-
-
-
-
-
-    </Parallax>  */}
-    </div>
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

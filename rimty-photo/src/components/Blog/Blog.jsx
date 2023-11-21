@@ -1,6 +1,6 @@
-import "./Blogs.css";
+import "./Blog.css";
 
-function Blogs() {
+function Blog() {
   return (
     <section id="blogs">
       <div class="album py-5 bg-body-">
@@ -351,65 +351,6 @@ function Blogs() {
         </div>
       </div>
     </section>
-
-    // <section id="blogs">
-    //   <div className="container col-xxl-8 px-4 py-5 blogs">
-    //     {/* <section className="col-lg-2 col-md-6 col-sm-12  flex left-section"> */}
-    //     <section className=" flex left-section">
-    //       <button className="active">All Blogs</button>
-    //       <button>Bangladesh</button>
-    //       <button>Netherlands</button>
-    //       <button>Belgium</button>
-    //       <button>Luxemburg</button>
-    //       <button>Bulgaria</button>
-    //     </section>
-
-    //     {/* <section className="col-lg-10 col-md-6 col-sm-12 right-section"> */}
-    //     <section className="right-section">
-    //       {/* <article className="card">
-    //       <img className="blog-img" src="images/keukenof.jpg" alt="" />
-    //       <div className="box">
-    //         <h4 className="title">Keukenof Garden</h4>
-    //         <span className="subtitle">📍Lisse,The Netherlands</span>
-    //         <p className="desc">
-    //           Lorem Ipsum is simply dummy text of the printing and typesetting
-    //           industry.
-    //         </p>
-    //         <div className="flex icons">
-    //           <div className="date">⏱ 20-03-2023</div>
-    //           <a className="link" href="#/">
-    //             More
-    //             <span className="more">👉🏻</span>
-    //           </a>
-    //         </div>
-    //       </div>
-    //     </article> */}
-
-    //       {["aa", "bb", "cc", 1, 7].map((item) => {
-    //         return (
-    //           <article key={item} className="card">
-    //             <img className="blog-img" src="images/keukenof.jpg" alt="" />
-    //             <div className="box">
-    //               <h4 className="title">Keukenof Garden</h4>
-    //               <span className="subtitle">📍Lisse,The Netherlands</span>
-    //               <p className="desc">
-    //                 Lorem Ipsum is simply dummy text of the printing and
-    //                 typesetting industry.
-    //               </p>
-    //               <div className="flex icons">
-    //                 <div className="date">⏱ 20-03-2023</div>
-    //                 <a className="link" href="#/">
-    //                   More
-    //                   <span className="more">👉🏻</span>
-    //                 </a>
-    //               </div>
-    //             </div>
-    //           </article>
-    //         );
-    //       })}
-    //     </section>
-    //   </div>
-    // </section>
   );
 }
-export default Blogs;
+export default Blog;

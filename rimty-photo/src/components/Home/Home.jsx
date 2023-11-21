@@ -1,4 +1,5 @@
 import "./Home.css";
+// import Gallery from "./Gallery";
 
 function Home() {
   return (
@@ -22,6 +23,7 @@ function Home() {
           />
           {/* </div> */}
         </div>
+        {/* <Gallery /> */}
       </section>
     </>
   );

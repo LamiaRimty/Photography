@@ -1,5 +1,5 @@
 import "./Header.css";
-
+import { Link } from "react-router-dom";
 function Header() {
   return (
     <section>
@@ -32,15 +32,11 @@ function Header() {
             id="navbarNav"
           >
             <ul className="navbar-nav ">
-              <li className="nav-item">
-                <a
-                  className="nav-link active"
-                  id="active-nav"
-                  aria-current="page"
-                  href="/#"
-                >
+              {/* <li className="nav-item">
+                <a className="nav-link active" aria-current="page" href="/#">
                   Home
                 </a>
+
               </li>
 
               <li className="nav-item">
@@ -58,6 +54,35 @@ function Header() {
                 <a className="nav-link" href="#about">
                   About
                 </a>
+              </li> */}
+
+              <li id="Home" className="nav-item">
+                <Link to="/" className="nav-link">
+                  HOME
+                </Link>
+              </li>
+              <li id="Gallery" className="nav-item">
+                <Link to="/Gallery" className="nav-link">
+                  Gallery
+                </Link>
+              </li>
+
+              <li id="Blog" className="nav-item">
+                <Link to="/Blog" className="nav-link">
+                  Blog
+                </Link>
+              </li>
+
+              <li id="About" className="nav-item">
+                <Link to="/about" className="nav-link">
+                  ABOUT
+                </Link>
+              </li>
+
+              <li id="Contact" className="nav-item">
+                <Link to="/contact" className="nav-link">
+                  CONTACT
+                </Link>
               </li>
             </ul>
 

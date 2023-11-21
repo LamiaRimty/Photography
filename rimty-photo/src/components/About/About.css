@@ -3,11 +3,12 @@
 }
 .about-title{
     font-size: 32px;
+    color:var(--title-color);
 }
 
 .about-subtitle{
     font-size: var(--h3);
-    color:var(--title-color);
+    color:var(--title-color-light);
     font-weight: var(--font-medium);
     
 }
@@ -25,13 +26,13 @@
   }
   #rimty{
     border-radius:10px;
-    border: 15px solid #CEDEBD;
+    border: 15px solid rgb(160, 208, 208);
   }
 
   #about-desc{
     font-size: 20px;
     justify-content:center;
-    color:#f9f9f9;
+    color:var(--text-color);
   }
 
   .about-button

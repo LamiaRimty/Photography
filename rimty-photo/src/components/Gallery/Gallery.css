@@ -1,8 +1,17 @@
-.gallery-container{
-    background-color: lemonchiffon;
- width: max-content;
+gallery{
+
+   background-image:url(https://papers.co/wallpaper/papers.co-nv20-sea-beach-water-summer-nature-earth-28-wallpaper.jpg);
+   background-image: url("https://plus.unsplash.com/premium_photo-1661962341737-f47f8389bc69?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGJlYWNoJTIwd2F0ZXJ8ZW58MHx8MHx8fDA%3D");
+  background-image:url(https://papers.co/wallpaper/papers.co-nv20-sea-beach-water-summer-nature-earth-28-wallpaper.jpg);
+  width:100% ;
+  color: white;
+  /* width: max-content; */
 }
 
+.gallery-container{
+  background-color: paleturquoise;
+  width: fit-content;
+}
 
 
 .swiper {

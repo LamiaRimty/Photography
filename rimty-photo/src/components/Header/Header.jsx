@@ -93,7 +93,7 @@ function Header() {
             </ul>
           </div>
         </div>
-        <button className="header-button">light</button>
+        <button className="header-button">☀️</button>
       </nav>
     </section>
   );

@@ -17,9 +17,10 @@ function App() {
     <div className="App">
       <Header />
       <Home />
-      <About />
+
       <Gallery />
       <Blogs />
+      <About />
       <Contact />
       <Footer />
       {/* <Cover/>  */}

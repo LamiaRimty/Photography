@@ -1,5 +1,6 @@
 
 .container-home {
+    margin-top: -60px;
     text-align: center;
    
 }
@@ -14,23 +15,27 @@ h3{
 .home-title{
 
    align-items: center;
-   font-family: lora;
-    margin-top: 20px;
+   font-family: fantasy;
     font-size: 30px;
-    color: #f9f9f9;
+    color:#5E454B;
+    color: teal;
     font-weight: 900;
     /* font-style: italic */
 }
 
+.home-subtitle{
+margin-bottom: 30px;
+    color:var(--text-color);
+   
+}
 
 .home-img{
 
-object-fit: cover;
-width: 100%;
-align-items: center;
-position: relative;
-border-radius: 5%;
-box-shadow: 0 4px 8px 0 rgba(199, 246, 243, 0.2), 0 6px 20px 0 rgba(158, 234, 228, 0.191);
-}
-
+    object-fit: cover;
+    width: 60%;
+    align-items: center;
+    position: relative;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
 

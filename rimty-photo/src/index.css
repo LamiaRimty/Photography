@@ -16,22 +16,24 @@
   box-sizing: inherit;
 }
 
-
 :root{
+  /* --header-height:50px; */
 
+  /* Color */
+ /* https://colorhunt.co/palette/faf1e4cedebd9eb384435334 */
 
-  --first-color: #435334;
-  --first-color-2nd:#9EB384;
-  --first-color-alt:#9EB384;
-  --first-color-lighter:#CEDEBD;
-  --title-color:  #435334;
-  --text-color:#435334;
-  --text-color-light:#9EB384;
-  --input-color: #092532;
-  --body-color: #FAF1E4;
-  --container-color: #FAF1E4;
-  --scroll-bar-color:#CEDEBD;
-  --scroll-thumb-color:#9EB384;
+ --first-color: #435334;
+ --first-color-2nd:#9EB384;
+ --first-color-alt:#9EB384;
+ --first-color-lighter:#CEDEBD;
+ --title-color:  #435334;
+ --text-color: #016A70;
+  --text-color-light:teal;
+ --input-color: ;
+ --body-color: #f9f9f9;
+ --container-color: #FAF1E4;
+ --scroll-bar-color:#CEDEBD;
+ --scroll-thumb-color:#9EB384;
   
 
   
@@ -64,15 +66,15 @@ body {
   min-height: 100vh;
   overflow-x:hidden ;
   height: 100%;
-  color:teal;
-  background-color:rgb(224, 238, 244);
+
+  background-color:var(--body-color);
+  /* background-image: url("https://www.transparenttextures.com/patterns/food.png"); */
+background-image: url("https://www.transparenttextures.com/patterns/xv.png");
   font-family:'Lora', serif;;
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   line-height: 1.7;
-  background-color:rgb(5, 35, 32);  
-background-image: url("https://www.transparenttextures.com/patterns/foggy-birds.png");
 }
 
 
@@ -100,7 +102,7 @@ padding: 16px 30px 64px;
 }
 
 .section-title{
-color:#CEDEBD;
+color:var(--text-color);
 font-size: 32px;
 
 }
@@ -110,7 +112,7 @@ font-size: 32px;
 display: block;
 font-size: 16px;
 margin-bottom: 48px;
-color: #f9f9f9;
+color: var(--text-color);
 
 
 }

@@ -62,7 +62,7 @@ function Blog() {
                   alt=""
                 ></img>
                 <div class="card-body">
-                  <h2 className="title">leeuwarden</h2>
+                  <h2 className="title">Leeuwarden</h2>
                   <span>📍Netherlands</span>
                   <p class="card-text">
                     This is a wider card with supporting text below as a natural
@@ -181,7 +181,7 @@ function Blog() {
                   alt=""
                 ></img>
                 <div class="card-body">
-                  <h2 className="title">Night Life in Brussels</h2>
+                  <h2 className="title">Night in Brussels</h2>
                   <span>📍Belgium</span>
                   <p class="card-text">
                     This is a wider card with supporting text below as a natural

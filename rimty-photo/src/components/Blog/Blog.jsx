@@ -1,5 +1,5 @@
 import "./Blog.css";
-
+import { Link } from "react-router-dom";
 function Blog() {
   return (
     <section id="blogs">
@@ -31,12 +31,15 @@ function Blog() {
                   </p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button
-                        type="button"
-                        class="btn btn-sm btn-outline-secondary"
-                      >
-                        View
-                      </button>
+                      <Link to="/blogId">
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary"
+                        >
+                          More
+                        </button>
+                      </Link>
+
                       <button
                         type="button"
                         class="btn btn-sm btn-outline-secondary"
@@ -68,12 +71,15 @@ function Blog() {
                   </p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button
-                        type="button"
-                        class="btn btn-sm btn-outline-secondary"
-                      >
-                        View
-                      </button>
+                      <Link to="/blogId">
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary"
+                        >
+                          More
+                        </button>
+                      </Link>
+
                       <button
                         type="button"
                         class="btn btn-sm btn-outline-secondary"
@@ -105,12 +111,14 @@ function Blog() {
                   </p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button
-                        type="button"
-                        class="btn btn-sm btn-outline-secondary"
-                      >
-                        View
-                      </button>
+                      <Link to="/blogId">
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary"
+                        >
+                          More
+                        </button>
+                      </Link>
                       <button
                         type="button"
                         class="btn btn-sm btn-outline-secondary"
@@ -143,12 +151,14 @@ function Blog() {
                   </p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button
-                        type="button"
-                        class="btn btn-sm btn-outline-secondary"
-                      >
-                        View
-                      </button>
+                      <Link to="/blogId">
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary"
+                        >
+                          More
+                        </button>
+                      </Link>
                       <button
                         type="button"
                         class="btn btn-sm btn-outline-secondary"
@@ -180,12 +190,14 @@ function Blog() {
                   </p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button
-                        type="button"
-                        class="btn btn-sm btn-outline-secondary"
-                      >
-                        View
-                      </button>
+                      <Link to="/blogId">
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary"
+                        >
+                          More
+                        </button>
+                      </Link>
                       <button
                         type="button"
                         class="btn btn-sm btn-outline-secondary"
@@ -217,12 +229,14 @@ function Blog() {
                   </p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button
-                        type="button"
-                        class="btn btn-sm btn-outline-secondary"
-                      >
-                        View
-                      </button>
+                      <Link to="/blogId">
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary"
+                        >
+                          More
+                        </button>
+                      </Link>
                       <button
                         type="button"
                         class="btn btn-sm btn-outline-secondary"
@@ -255,12 +269,14 @@ function Blog() {
                   </p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button
-                        type="button"
-                        class="btn btn-sm btn-outline-secondary"
-                      >
-                        View
-                      </button>
+                      <Link to="/blogId">
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary"
+                        >
+                          More
+                        </button>
+                      </Link>
                       <button
                         type="button"
                         class="btn btn-sm btn-outline-secondary"
@@ -292,12 +308,14 @@ function Blog() {
                   </p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button
-                        type="button"
-                        class="btn btn-sm btn-outline-secondary"
-                      >
-                        View
-                      </button>
+                      <Link to="/blogId">
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary"
+                        >
+                          More
+                        </button>
+                      </Link>
                       <button
                         type="button"
                         class="btn btn-sm btn-outline-secondary"
@@ -329,12 +347,14 @@ function Blog() {
                   </p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button
-                        type="button"
-                        class="btn btn-sm btn-outline-secondary"
-                      >
-                        View
-                      </button>
+                      <Link to="/blogId">
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary"
+                        >
+                          More
+                        </button>
+                      </Link>
                       <button
                         type="button"
                         class="btn btn-sm btn-outline-secondary"

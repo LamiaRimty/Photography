@@ -63,13 +63,13 @@ function Header() {
               </li>
               <li id="Gallery" className="nav-item">
                 <Link to="/Gallery" className="nav-link">
-                  Gallery
+                  GALLERY
                 </Link>
               </li>
 
               <li id="Blog" className="nav-item">
                 <Link to="/Blog" className="nav-link">
-                  Blog
+                  BLOG
                 </Link>
               </li>
 

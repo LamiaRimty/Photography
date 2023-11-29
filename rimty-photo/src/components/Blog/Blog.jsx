@@ -1,5 +1,7 @@
 import "./Blog.css";
 import { Link } from "react-router-dom";
+import { data } from "../../assets/data/blogData";
+
 function Blog() {
   return (
     <section id="blogs">
@@ -11,6 +13,7 @@ function Blog() {
           since the 1500s.
         </span>
         <div class="container">
+          {/* Album card codes */}
           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
             <div class="col">
               <div class="card shadow-sm">
@@ -368,6 +371,21 @@ function Blog() {
               </div>
             </div>
           </div>
+
+          {/* 
+postData card code */}
+
+          {data.map((item) => (
+            <div className="card cardItems" key={item.id}>
+              <div className="img">
+                <img src={item.cover} alt="" />
+              </div>
+
+              <div className="details">
+                <div className="title">{item.title}</div>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </section>

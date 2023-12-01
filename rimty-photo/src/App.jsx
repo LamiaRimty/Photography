@@ -6,6 +6,7 @@ import Gallery from "./components/Gallery/Gallery";
 import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
+import Details from "./components/Details/Details";
 
 import "./App.css";
 import Blog from "./components/Blog/Blog";
@@ -29,6 +30,7 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route path="/Gallery" element={<Gallery />} />
           <Route path="/blog" element={<Blog />} />
+          <Route exact path="/details" element={<Details />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>

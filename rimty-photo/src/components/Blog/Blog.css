@@ -83,7 +83,12 @@ width: 300px;
 }
 
 .card .box .title{
-    color: var(--first-color);
+    color: teal;
+}
+
+.title{
+    color: teal;
+    font-weight: 400;
 }
 
 .card .box .subtitle{

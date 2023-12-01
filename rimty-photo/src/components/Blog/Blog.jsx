@@ -1,6 +1,8 @@
 import "./Blog.css";
 import { Link } from "react-router-dom";
 import { data } from "../../assets/data/blogData";
+import { AiOutlineClockCircle } from "react-icons/ai";
+import { IoLocation } from "react-icons/io5";
 
 function Blog() {
   return (
@@ -15,377 +17,57 @@ function Blog() {
         <div class="container">
           {/* Album card codes */}
           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-            <div class="col">
-              <div class="card shadow-sm">
-                <img
-                  class="bd-placeholder-img card-img-top"
-                  width="100%"
-                  height="225"
-                  src="./images/keukenof.jpg"
-                  alt=""
-                ></img>
-                <div class="card-body">
-                  <h2 className="title">Keukenof</h2>
-                  <span>📍Lisse,Netherlands</span>
-                  <p class="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
-                  </p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <Link to="/blogId">
-                        <button
-                          type="button"
-                          class="btn btn-sm btn-outline-secondary"
-                        >
-                          More
-                        </button>
-                      </Link>
+            {data.map((item) => (
+              <div class="col">
+                <div class="card cardItems shadow-sm " key={item.id}>
+                  <img
+                    class="bd-placeholder-img card-img-top"
+                    width="100%"
+                    height="225"
+                    src={item.cover}
+                    alt=""
+                  ></img>
+                  <div class="card-body">
+                    <Link to={`details/${item.id}`} className="link">
+                      <h3 className="title">{item.title}</h3>
+                    </Link>
+                    <p className="location">
+                      <IoLocation />
+                      {item.location}
+                    </p>
+                    <h5 className="subtitle">{item.qoute}</h5>
+                    <div class="d-flex justify-content-between align-items-center">
+                      {/* <div class="btn-group">
+                        <Link to="/blogId">
+                          <button
+                            type="button"
+                            class="btn btn-sm btn-outline-secondary"
+                          >
+                            More
+                          </button>
+                        </Link>
 
-                      <button
-                        type="button"
-                        class="btn btn-sm btn-outline-secondary"
-                      >
-                        Edit
-                      </button>
-                    </div>
-                    <small class="text-body-secondary">⏱12-12-2022</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card shadow-sm">
-                <img
-                  class="bd-placeholder-img card-img-top"
-                  width="100%"
-                  height="225"
-                  src="./images/leeuwarden.jpg"
-                  alt=""
-                ></img>
-                <div class="card-body">
-                  <h2 className="title">Leeuwarden</h2>
-                  <span>📍Netherlands</span>
-                  <p class="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
-                  </p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <Link to="/blogId">
                         <button
                           type="button"
                           class="btn btn-sm btn-outline-secondary"
                         >
-                          More
+                          Edit
                         </button>
-                      </Link>
-
-                      <button
-                        type="button"
-                        class="btn btn-sm btn-outline-secondary"
-                      >
-                        Edit
-                      </button>
+                      </div> */}
+                      <small class="text-body-secondary">
+                        {" "}
+                        <AiOutlineClockCircle className="clock-icon" />{" "}
+                        {item.time}
+                      </small>
                     </div>
-                    <small class="text-body-secondary">9 mins</small>
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="col">
-              <div class="card shadow-sm">
-                <img
-                  class="bd-placeholder-img card-img-top"
-                  width="100%"
-                  height="225"
-                  src="./images/luxemburg.jpg"
-                  alt=""
-                ></img>
-                <div class="card-body">
-                  <h2 className="title">Old luxemburg</h2>
-                  <span>📍luxemburg</span>
-                  <p class="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
-                  </p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <Link to="/blogId">
-                        <button
-                          type="button"
-                          class="btn btn-sm btn-outline-secondary"
-                        >
-                          More
-                        </button>
-                      </Link>
-                      <button
-                        type="button"
-                        class="btn btn-sm btn-outline-secondary"
-                      >
-                        Edit
-                      </button>
-                    </div>
-                    <small class="text-body-secondary">9 mins</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col">
-              <div class="card shadow-sm">
-                <img
-                  class="bd-placeholder-img card-img-top"
-                  width="100%"
-                  height="225"
-                  src="./images/maastrict.jpg"
-                  alt=""
-                ></img>
-                <div class="card-body">
-                  <h2 className="title">Tristate</h2>
-                  <span>📍Netherlands</span>
-                  <p class="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
-                  </p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <Link to="/blogId">
-                        <button
-                          type="button"
-                          class="btn btn-sm btn-outline-secondary"
-                        >
-                          More
-                        </button>
-                      </Link>
-                      <button
-                        type="button"
-                        class="btn btn-sm btn-outline-secondary"
-                      >
-                        Edit
-                      </button>
-                    </div>
-                    <small class="text-body-secondary">9 mins</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card shadow-sm">
-                <img
-                  class="bd-placeholder-img card-img-top"
-                  width="100%"
-                  height="225"
-                  src="./images/belgium.jpg"
-                  alt=""
-                ></img>
-                <div class="card-body">
-                  <h2 className="title">Night in Brussels</h2>
-                  <span>📍Belgium</span>
-                  <p class="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
-                  </p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <Link to="/blogId">
-                        <button
-                          type="button"
-                          class="btn btn-sm btn-outline-secondary"
-                        >
-                          More
-                        </button>
-                      </Link>
-                      <button
-                        type="button"
-                        class="btn btn-sm btn-outline-secondary"
-                      >
-                        Edit
-                      </button>
-                    </div>
-                    <small class="text-body-secondary">9 mins</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card shadow-sm">
-                <img
-                  class="bd-placeholder-img card-img-top"
-                  width="100%"
-                  height="225"
-                  src="./images/bikes.jpeg"
-                  alt=""
-                ></img>
-                <div class="card-body">
-                  <h2 className="title">Bikes</h2>
-                  <span>📍Ostvarders,Flevoland</span>
-                  <p class="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
-                  </p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <Link to="/blogId">
-                        <button
-                          type="button"
-                          class="btn btn-sm btn-outline-secondary"
-                        >
-                          More
-                        </button>
-                      </Link>
-                      <button
-                        type="button"
-                        class="btn btn-sm btn-outline-secondary"
-                      >
-                        Edit
-                      </button>
-                    </div>
-                    <small class="text-body-secondary">9 mins</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col">
-              <div class="card shadow-sm">
-                <img
-                  class="bd-placeholder-img card-img-top"
-                  width="100%"
-                  height="225"
-                  src="./images/pngegg.png"
-                  alt=""
-                ></img>
-                <div class="card-body">
-                  <h2 className="title">Sofia Evening</h2>
-                  <span>📍Sofia,Bulgaria</span>
-                  <p class="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
-                  </p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <Link to="/blogId">
-                        <button
-                          type="button"
-                          class="btn btn-sm btn-outline-secondary"
-                        >
-                          More
-                        </button>
-                      </Link>
-                      <button
-                        type="button"
-                        class="btn btn-sm btn-outline-secondary"
-                      >
-                        Edit
-                      </button>
-                    </div>
-                    <small class="text-body-secondary">9 mins</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card shadow-sm">
-                <img
-                  class="bd-placeholder-img card-img-top"
-                  width="100%"
-                  height="225"
-                  src="./images/rimty-logo.png"
-                  alt=""
-                ></img>
-                <div class="card-body">
-                  <h2 className="title">Rila Monastary</h2>
-                  <span>📍Bulgaria</span>
-                  <p class="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
-                  </p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <Link to="/blogId">
-                        <button
-                          type="button"
-                          class="btn btn-sm btn-outline-secondary"
-                        >
-                          More
-                        </button>
-                      </Link>
-                      <button
-                        type="button"
-                        class="btn btn-sm btn-outline-secondary"
-                      >
-                        Edit
-                      </button>
-                    </div>
-                    <small class="text-body-secondary">9 mins</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card shadow-sm">
-                <img
-                  class="bd-placeholder-img card-img-top"
-                  width="100%"
-                  height="225"
-                  src="./images/kashful.jpg"
-                  alt=""
-                ></img>
-                <div class="card-body">
-                  <h2 className="title">Light Festivals</h2>
-                  <span>📍Eindhovan</span>
-                  <p class="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
-                  </p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <Link to="/blogId">
-                        <button
-                          type="button"
-                          class="btn btn-sm btn-outline-secondary"
-                        >
-                          More
-                        </button>
-                      </Link>
-                      <button
-                        type="button"
-                        class="btn btn-sm btn-outline-secondary"
-                      >
-                        Edit
-                      </button>
-                    </div>
-                    <small class="text-body-secondary">9 mins</small>
-                  </div>
-                </div>
-              </div>
-            </div>
+            ))}
           </div>
 
           {/* 
 postData card code */}
-
-          {data.map((item) => (
-            <div className="card cardItems" key={item.id}>
-              <div className="img">
-                <img src={item.cover} alt="" />
-              </div>
-
-              <div className="details">
-                <div className="title">{item.title}</div>
-              </div>
-            </div>
-          ))}
         </div>
       </div>
     </section>

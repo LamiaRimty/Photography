@@ -11,7 +11,7 @@ function About() {
             About Me
           </h2> */}
 
-          <div className=" col-10 col-sm-8 col-lg-6 justify-content-center about-img animate__animated animate__slideInLeft animate__delay-4s">
+          <div className=" col-10 col-sm-8 col-lg-6 justify-content-center about-img animate__animated animate__slideInLeft animate__delay-1s">
             <img
               id="rimty"
               src="./images/Rimty.jpg"

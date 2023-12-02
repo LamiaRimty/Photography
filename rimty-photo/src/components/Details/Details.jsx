@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { data } from "../../assets/data/blogData";
+import { BsPencilSquare } from "react-icons/bs";
+import { AiOutlineDelete } from "react-icons/ai";
 import "./Details.css";
 
 function Details() {
@@ -13,37 +15,46 @@ function Details() {
     if (blogs) {
       setBlogs(blogs);
     }
-  }, []);
+  }, [id]);
 
   return (
     <>
       {blogs ? (
         <section className="singleBlog">
-          <div class="px-4  my-5 text-center border-bottom">
+          <div class="container px-4  my-5 text-center border-bottom">
             <h1 class="display-4 fw-bold text-body-emphasis">{blogs.title}</h1>
 
-            <div class="overflow-hidden">
-              <div class="container px-5">
+            <div class=" overflow-hidden">
+              <div class="left container px-5">
                 <img
                   src={blogs.cover}
-                  class="img-fluid border rounded-3 shadow-lg mb-4"
+                  class="img-fluid detail-img border rounded-3 shadow-lg mb-4"
                   alt=""
-                  width="700"
-                  height="500"
+                  // width="700"
+                  // height="500"
                   loading="lazy"
                 />
               </div>
+              <div className="right">
+                <div className="buttons">
+                  <button className="button">
+                    <BsPencilSquare />
+                  </button>
+
+                  <button className="button">
+                    <AiOutlineDelete />
+                  </button>
+                </div>
+              </div>
             </div>
 
-            <div class="col-lg-6 mx-auto">
+            <div class="col-lg-12 mx-auto">
+              <p className="location">{blogs.location}</p>
+              <p>{blogs.time}</p>
               <p class="lead mb-4">
-                Quickly design and customize responsive mobile-first sites with
-                Bootstrap, the world’s most popular front-end open source
-                toolkit, featuring Sass variables and mixins, responsive grid
-                system, extensive prebuilt components, and powerful JavaScript
-                plugins.
+                <>{blogs.details}</>
               </p>
-              <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+              {/* <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
                 <button
                   type="button"
                   class="btn btn-primary btn-lg px-4 me-sm-3"
@@ -56,7 +67,7 @@ function Details() {
                 >
                   Secondary
                 </button>
-              </div>
+              </div> */}
             </div>
           </div>
         </section>

@@ -5,7 +5,7 @@ function Header() {
     <section>
       <nav className="navbar navbar-expand-lg bg-body-">
         {/* <div class="container col-xxl-8 px-2 py-3 "> */}
-        <div className="container-fluid col-xxl-8 px-2 py-3">
+        <div className="container-fluid col-xxl-8 px-2 py-0">
           <a className="navbar-brand" href="#home">
             <img
               id="header-img"

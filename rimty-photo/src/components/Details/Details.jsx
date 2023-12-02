@@ -3,6 +3,8 @@ import { useParams } from "react-router-dom";
 import { data } from "../../assets/data/blogData";
 import { BsPencilSquare } from "react-icons/bs";
 import { AiOutlineDelete } from "react-icons/ai";
+import { AiOutlineClockCircle } from "react-icons/ai";
+import { IoLocation } from "react-icons/io5";
 import "./Details.css";
 
 function Details() {
@@ -22,10 +24,9 @@ function Details() {
       {blogs ? (
         <section className="singleBlog">
           <div class="container px-4  my-5 text-center border-bottom">
-            <h1 class="display-4 fw-bold text-body-emphasis">{blogs.title}</h1>
-
             <div class=" overflow-hidden">
-              <div class="left container px-5">
+              <div class="left">
+                {/* <div class="left container px-5"> */}
                 <img
                   src={blogs.cover}
                   class="img-fluid detail-img border rounded-3 shadow-lg mb-4"
@@ -37,11 +38,11 @@ function Details() {
               </div>
               <div className="right">
                 <div className="buttons">
-                  <button className="button">
+                  <button className="button  me-sm-3">
                     <BsPencilSquare />
                   </button>
 
-                  <button className="button">
+                  <button className="button me-sm-3">
                     <AiOutlineDelete />
                   </button>
                 </div>
@@ -49,25 +50,16 @@ function Details() {
             </div>
 
             <div class="col-lg-12 mx-auto">
-              <p className="location">{blogs.location}</p>
-              <p>{blogs.time}</p>
-              <p class="lead mb-4">
-                <>{blogs.details}</>
+              <h1 class="blogstitle">{blogs.title}</h1>
+
+              <p className="blogslocation">
+                <IoLocation className="blogslocationIcon" />
+                {blogs.location}
               </p>
-              {/* <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-                <button
-                  type="button"
-                  class="btn btn-primary btn-lg px-4 me-sm-3"
-                >
-                  Primary button
-                </button>
-                <button
-                  type="button"
-                  class="btn btn-outline-secondary btn-lg px-4"
-                >
-                  Secondary
-                </button>
-              </div> */}
+              <p className="blogstime">
+                <AiOutlineClockCircle className="blogsClockIcon" /> {blogs.time}
+              </p>
+              <p class="blogsdetails lead mb-4">{blogs.details}</p>
             </div>
           </div>
         </section>

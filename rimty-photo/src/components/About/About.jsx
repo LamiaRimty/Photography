@@ -20,7 +20,7 @@ function About() {
               loading="lazy"
             />
           </div>
-          <div className="col-10 col-sm-8 col-lg-6 detail  animate__animated animate__slideInRight animate__delay-4s">
+          <div className="col-10 col-sm-8 col-lg-6 detail  animate__animated animate__slideInRight animate__delay-1s">
             <p className="lead mx-auto" id="about-desc">
               Hello! I’m <strong>Lamia Jabin Rimty.</strong> I am a{" "}
               <em>UI/UX and Front End Developer.</em> Beautiful{" "}

@@ -2,62 +2,63 @@ export const data=[
 
     {
         id:1,
-        cover:"https://media.istockphoto.com/id/937057490/photo/traditional-dutch-windmills-and-houses-near-the-canal-in-zaanstad-village-zaanse-schans.jpg?s=612x612&w=0&k=20&c=KCX_ueIYeZlqPwJB8gHke2Mvd81eEcuSN_w9KjpG2EI=",
+        cover:"./images/chittagong.JPG",
         title:"Beautiful Bangladesh🇧🇩",
         location:"Rangpur, Bangladesh",
         time:"12-01-2018 .🥐 10 min to read",
         qoute:"Why Bangladesh is called the hidden gem of Asia?",
-        details:"Bangladesh The standard Lorem Ipsum passage, used since the 1500 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? "
+        details:"Mohamaya lake lies beside Dhaka-Chittagong highway. It takes 90 minutes drive from the Chittagong city. A cal and quite place for a family picnic and a relaxing Kayaking on the lake.  Mohamaya Irrigation project is the second-largest man-made lake constructed in Bangladesh after Kaptai lake.The government is in the process of making large-scale investment plans to turn Mohamaya, an eye-catching hillside lake in Mirsarai, into a tourism hotspot. Mohamaya Lake is located in mirsharai Chittagong."
     
     },
 
     {
         id:2,
-        cover:"https://www.deutschland.de/sites/default/files/styles/image_carousel_mobile/public/media/image/TdT_RadNiederlande_06092019.jpg?itok=6gyFnx9Q",
+        cover:"./images/keukenof.jpg",
         title:"The Country of Tulips🇳🇱",
         location:"Keukenof, The Netherlands",
         time:"12-01-2018 .🥐 10 min to read",
         qoute:"What's inside the fairytale garden of tulip? ",
-        details:"Netherlands But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+        details:"🌷Keukenhof:The Garden of Europe(1950)🌷অমিতাভবচ্চন ও রেখার সিলসিলা সিনেমার গানের শুটিং এর সেই টিউলিপবাগানে💐 This 72years old 79acres Garden also includes beautiful Hyacinths, Daffodils, Lilies, Roses, Carnations and Irises 🌸🏵️💐🌷 Keukenhof (Dutch:Kitchen garden)also known as The Garden of Europe.It is one of the world's largest flower gardensin the world.Approximately 7 million flower bulbs are planted in the gardens annually. The garden opened to the public in 1950 and received 200,000 visitors in its first year.In 2022,more than 1.1 million people visited the Keukenhof.😱 Keukenhof is only open to the general public for a world-renowned 8 week, display from mid-March to mid-May."
     },
 
 
 
     {
         id:3,
-        cover:"https://www.deutschland.de/sites/default/files/styles/image_carousel_mobile/public/media/image/TdT_RadNiederlande_06092019.jpg?itok=6gyFnx9Q",
-        title:"Night Life in Brussels🇩🇪",
+        cover:"./images/chocolate.jpg",
+        title:"The Chocolate country?🇩🇪",
         location:"Brussels, Belgium",
         time:"12-01-2018 .  🍱 10 min to read",
         qoute:"Do you know Belgium is called The chocolate country?" ,
-        details:"Brussels At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
+        details:"Belgium is called the 'Cockpit of Europe' because it is where the largest number of European battles have taken place in the history.It's capital Brussels has a lots of war Monuments & buildings.🏛️🕍🏤Exploring around the cobbled streets of Brussels. #RoyalGallery Street, #Belgianchocolate #waffles #EuropeanUnionHeadquarters, #grandplace #atomium , #mannekenpis #RoyalPlace, #StMichael #cathedralbrussel #minieurope Christmas light Shows & many more 🤩 "
     },
     {
         id:4,
-        cover:"https://www.deutschland.de/sites/default/files/styles/image_carousel_mobile/public/media/image/TdT_RadNiederlande_06092019.jpg?itok=6gyFnx9Q",
+        cover:"./images/dinant1.jpg",
         title:"Mountainous Dinat🇩🇪",
         location:"Dinut, Belgium",
         time:"12-01-2018 .  🍱 10 min to read",
-        qoute:"Dinat Living in the mountain" ,
+        qoute:"City of Saxophone",
+        details:"Dinat,gorgeous 7th century-old Dinant city that 🏰 lies alongside the River Meuse 🏞️. It's called the city of Saxophone, bcoz Saxophone was first invented here in 1841 by Adolphe Sax. Each colorful Saxophone in the central bridge represents a county. 🎷 At the foot of the mountain at the foot of the river, such a beautiful ancient castle hotel, the houses are like the set of a horror movie even during the day 👻" ,
     },
     {
         id:5,
-        cover:"https://www.deutschland.de/sites/default/files/styles/image_carousel_mobile/public/media/image/TdT_RadNiederlande_06092019.jpg?itok=6gyFnx9Q",
+        cover:"./images/luxembourgCo.jpg",
         title:"Luxury Lux🇱🇺",
         location:"Old Town, Luxemburg",
         time:"27-03-2022 .  🍱 10 min to read",
         qoute:"Country of Billionaires." ,
-        details:"Luxemburg On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains."
+        details:"Luxembourg is the richest country in the world. Also smallest country in EU.Surrounded with Rocky Mountains,Densly forest.1st day Luxembourg city,2nd day we were trekking around Mullerthal Trail 🏞️ in the 'Echternach'. 3rd day went to 11th century-old hostorical called Bourscheid Castle(1000AD) uninhabited mountain castle, some advanced villages in the big mountains around, small town with a few Mansion houses on the hill, and houses with Tesla, Audi or BMW 😎 River Sûre water The chatter is going on, somewhere horses are eating grass. Although Luxembourg City is busy, there was not a single person in sight except us on the mountain village road far from the city. Besides, why would billionaires be on the road👻 Only luxury cars pass by the road after a long time, otherwise Luxury Luxembourg 🤑"
     },
 
     {
         id:6,
-        cover:"https://www.deutschland.de/sites/default/files/styles/image_carousel_mobile/public/media/image/TdT_RadNiederlande_06092019.jpg?itok=6gyFnx9Q",
-        title:"Cultural Melting Point of EU🇮🇹",
+        cover:"./images/novasky.jpg",
+        title:"Prussia of Balkans🇮🇹",
         location:"Sofia, Bulgaria",
         time:"21-11-2023 .  🍱 10 min to read",
         qoute:"Bulgaria is a Balkan nation" ,
-        details:"Bulgaria Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        details:"Bulgaria - Greek, Slavic, Ottoman, Persian cultural melting pot where.... Eastern European Balkan country located at the foot of the mountains 🇧🇬 Capital city,Sofia surrounded by Vitosha hills. The people of this city are very musical, where live music can be seen in the city. The center is full of traditional architecture and sculptures. There are various sculptures hidden in the park, on the road, in the gap between the trees. It can be said that people have a nightlife, they were seen spending time outside with their families until 11/12 at the weekend.😄The villages are all mountain villages. Every prosperous city or village house has a forest, that forest is full of grapes only. It is a very hot country, pure land, a country of red soil, so the fruits are very sweet to eat. The most interesting thing is, in the crowd of white people on the street, maybe we were Bangladeshis 😜 and there are no brown people, no black people. Even if there are, we will be tourists. So wherever we go, the people of that country either don't look at us, or observe us from head to toe.🤔Since Bulgaria is an Eastern European country, which is a country close to Asia, the food has a European-Asian vibe. Not overly sweet, the food tastes good, with Asian flavors. Day 2: Top of the Rila Mountain & 7 Lakes🏞️ #trekking towards Mountain's #kidneylake💙💦 It seems that the most unique creation of the creator is the mountain😍 Trekking on the mountain is difficult, but the more you go to the top of the mountain, the more the fascination increases. Laga. Everyone around me came trekking with a lot of hi-fi systems, I went up to the mountains in walking clothes! 😜⛰Early in the morning, before the light of the sun, I took the bus to the mountains. Sofia is 1.5 hours away from the city. I went and saw that hundreds of people had come to do mountain trekking and stood in line for 3 hours and finally got a ticket 😣.We were brought to our mountain lodge by cable car thukku chair across the dense pine forest. That too is quite high on the mountain. The water in the lodge is ice cold because it is about 10-15 degrees colder than the locality in the mountains. About 3-4 hours of hot sun, the journey started again in cool air. As you climb up the mountain, you can see the hidden lakes. "
     },
 
 ]

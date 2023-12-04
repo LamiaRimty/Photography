@@ -23,6 +23,7 @@ function Details() {
     <>
       {blogs ? (
         <section className="singleBlog">
+          {/* <div class="px-4 pt-4 my-5 text-center border-bottom"> */}
           <div class="container px-4  my-5 text-center border-bottom">
             <div class=" overflow-hidden">
               <div class="left">

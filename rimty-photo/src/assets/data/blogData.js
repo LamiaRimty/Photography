@@ -2,6 +2,7 @@ export const data=[
 
     {
         id:1,
+        // cover:"https://cdn.bangladeshscenictours.com/wp-content/uploads/2019/11/Chittagong-Hill-Tracts.jpg",
         cover:"./images/chittagong.JPG",
         title:"Beautiful Bangladesh🇧🇩",
         location:"Rangpur, Bangladesh",
@@ -26,10 +27,10 @@ export const data=[
     {
         id:3,
         cover:"./images/chocolate.jpg",
-        title:"The Chocolate country?🇩🇪",
+        title:"Chocolate country?🇩🇪",
         location:"Brussels, Belgium",
         time:"12-01-2018 .  🍱 10 min to read",
-        qoute:"Do you know Belgium is called The chocolate country?" ,
+        qoute:"Why Belgium is called The chocolate country?" ,
         details:"Belgium is called the 'Cockpit of Europe' because it is where the largest number of European battles have taken place in the history.It's capital Brussels has a lots of war Monuments & buildings.🏛️🕍🏤Exploring around the cobbled streets of Brussels. #RoyalGallery Street, #Belgianchocolate #waffles #EuropeanUnionHeadquarters, #grandplace #atomium , #mannekenpis #RoyalPlace, #StMichael #cathedralbrussel #minieurope Christmas light Shows & many more 🤩 "
     },
     {

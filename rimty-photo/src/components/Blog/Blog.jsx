@@ -31,11 +31,11 @@ function Blog() {
                     <Link to={`details/${item.id}`} className="link">
                       <h3 className="title">{item.title}</h3>
                     </Link>
-                    <p className="location">
+                    <span className="location">
                       <IoLocation />
                       {item.location}
-                    </p>
-                    <h5 className="subtitle">{item.qoute}</h5>
+                    </span>
+                    <h5 className="qoute">{item.qoute}</h5>
                     <div class="d-flex justify-content-between align-items-center">
                       {/* <div class="btn-group">
                         <Link to="/blogId">

@@ -126,10 +126,7 @@ font-weight: 300;
 text-align: center;
 }
 
-span{
-  font-size:16px;
-  
-}
+
 
 .button{
 background:var(--text-color);

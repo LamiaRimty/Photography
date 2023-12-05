@@ -7,7 +7,7 @@ import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import Details from "./components/Details/Details";
-
+import Compose from "./components/Compose/Compose";
 import "./App.css";
 import Blog from "./components/Blog/Blog";
 // import Parallax from "./components/Parallax/Parallax";
@@ -30,9 +30,10 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route path="/Gallery" element={<Gallery />} />
           <Route path="/blog" element={<Blog />} />
-          <Route path="/details/:id" element={<Details />} />
+          <Route exact path="/details/:id" element={<Details />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/compose" element={<Compose />} />
         </Routes>
         <Footer />
       </div>

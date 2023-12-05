@@ -9,7 +9,7 @@ import "./Details.css";
 
 function Details() {
   const { id } = useParams();
-  const [blogs, setBlogs] = useState(null);
+  const [blogs, setBlogs] = useState(data);
 
   useEffect(() => {
     let blogs = data.find((blogs) => blogs.id === parseInt(id));
@@ -24,13 +24,16 @@ function Details() {
       {blogs ? (
         <section className="singleBlog">
           {/* <div class="px-4 pt-4 my-5 text-center border-bottom"> */}
-          <div class="container px-4  my-5 text-center border-bottom">
-            <div class=" overflow-hidden">
-              <div class="left">
+          <div
+            className="container px-4  my-5 text-center border-bottom"
+            key={blogs.id}
+          >
+            <div className=" overflow-hidden">
+              <div className="left">
                 {/* <div class="left container px-5"> */}
                 <img
                   src={blogs.cover}
-                  class="img-fluid detail-img border rounded-3 shadow-lg mb-4"
+                  className="img-fluid detail-img border rounded-3 shadow-lg mb-4"
                   alt=""
                   // width="700"
                   // height="500"
@@ -50,8 +53,8 @@ function Details() {
               </div>
             </div>
 
-            <div class="col-lg-12 mx-auto">
-              <h1 class="blogstitle">{blogs.title}</h1>
+            <div className="col-lg-12 mx-auto">
+              <h1 className="blogstitle">{blogs.title}</h1>
 
               <p className="blogslocation">
                 <IoLocation className="blogslocationIcon" />
@@ -60,7 +63,7 @@ function Details() {
               <p className="blogstime">
                 <AiOutlineClockCircle className="blogsClockIcon" /> {blogs.time}
               </p>
-              <p class="blogsdetails lead mb-4">{blogs.details}</p>
+              <p className="blogsdetails ">{blogs.details}</p>
             </div>
           </div>
         </section>

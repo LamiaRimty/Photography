@@ -7,27 +7,26 @@ import { IoLocation } from "react-icons/io5";
 function Blog() {
   return (
     <section id="blogs">
-      <div class="album py-5 bg-body-">
+      <div className="album py-5 bg-body-">
         <h2 className="section-title">Photo Album</h2>
         <span className="section-subtitle">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s.
+          I love nature 🌿 I like to capture every moment wherever I
+          go.Throughout this album, I'll share my experience of traveling.🚶🏻‍♀️
         </span>
-        <div class="container">
+        <div className="container">
           {/* Album card codes */}
-          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
             {data.map((item) => (
-              <div class="col">
-                <div class="card cardItems shadow-sm " key={item.id}>
+              <div className="col">
+                <div className="card cardItems shadow-sm " key={item.id}>
                   <img
-                    class="bd-placeholder-img card-img-top"
+                    className="bd-placeholder-img card-img-top"
                     width="100%"
                     height="225"
                     src={item.cover}
                     alt=""
                   ></img>
-                  <div class="card-body">
+                  <div className="card-body">
                     <Link to={`details/${item.id}`} className="link">
                       <h3 className="title">{item.title}</h3>
                     </Link>
@@ -36,7 +35,7 @@ function Blog() {
                       {item.location}
                     </span>
                     <h5 className="qoute">{item.qoute}</h5>
-                    <div class="d-flex justify-content-between align-items-center">
+                    <div className="d-flex justify-content-between align-items-center">
                       {/* <div class="btn-group">
                         <Link to="/blogId">
                           <button
@@ -54,7 +53,7 @@ function Blog() {
                           Edit
                         </button>
                       </div> */}
-                      <small class="text-body-secondary">
+                      <small className="text-body-secondary">
                         {" "}
                         <AiOutlineClockCircle className="clock-icon" />{" "}
                         {item.time}

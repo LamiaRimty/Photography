@@ -12,7 +12,7 @@ function Compose() {
 
           <form className="composeForm">
             <div className="composeFormGroup flexCenter">
-              <label>Cover Photo</label>
+              <label htmlFor="file">Upload Image</label>
               <input
                 id="fileInput"
                 accept="image/*"
@@ -56,12 +56,16 @@ function Compose() {
                 className="composeBlog"
                 type="text"
                 placeholder="Write a blog..."
-                cols="30"
+                cols="100"
                 rows="10"
               ></textarea>
             </div>
 
-            <button className="composeBlogBtn" type="submit" autoComplete="off">
+            <button
+              className="composeBlogBtn button"
+              type="submit"
+              autoComplete="off"
+            >
               Publish
             </button>
           </form>

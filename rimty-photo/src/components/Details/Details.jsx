@@ -26,7 +26,7 @@ function Details() {
           {/* <div class="px-4 pt-4 my-5 text-center border-bottom"> */}
           <div
             className="container px-4  my-5 text-center border-bottom"
-            key={blogs.id}
+            key="{blogs.id}"
           >
             <div className=" overflow-hidden">
               <div className="left">
@@ -63,7 +63,7 @@ function Details() {
               <p className="blogstime">
                 <AiOutlineClockCircle className="blogsClockIcon" /> {blogs.time}
               </p>
-              <p className="blogsdetails ">{blogs.details}</p>
+              <p className="blogsdetails ">{blogs.desc}</p>
             </div>
           </div>
         </section>

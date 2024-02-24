@@ -52,13 +52,13 @@ function Compose() {
 
             <div className="composeFormGroup" id="composeEdit">
               <label>Description</label>
-              <textarea
+              <textareax
                 className="composeBlog"
                 type="text"
                 placeholder="Write a blog..."
                 cols="100"
                 rows="10"
-              ></textarea>
+              ></textareax>
             </div>
 
             <button

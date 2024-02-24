@@ -43,7 +43,7 @@ function Gallery() {
             <img src="images/nl.jpg" alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="images/belgium.jpg" alt="" />
+            <img src="images/belgium.jpg" alt="" />ß
           </SwiperSlide>
           <SwiperSlide>
             <img src="images/luxemburg.jpg" alt="" />

@@ -21,8 +21,8 @@ function Blog() {
                 <div className="card cardItems shadow-sm " key={item.id}>
                   <img
                     className="bd-placeholder-img card-img-top"
-                    width="100%"
-                    height="225"
+                    width="80%"
+                    height="300"
                     src={item.cover}
                     alt=""
                   ></img>

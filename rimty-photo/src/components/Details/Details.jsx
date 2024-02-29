@@ -28,14 +28,14 @@ function Details() {
           >
             <div className=" overflow-hidden">
               <div className="left">
-                {/* <img
+                <img
                   src={blogs.cover}
                   className="img-fluid detail-img border rounded-3 shadow-lg mb-4"
                   alt="details-img"
                   width="700"
                   height="500"
                   loading="lazy"
-                /> */}
+                />
               </div>
             </div>
 

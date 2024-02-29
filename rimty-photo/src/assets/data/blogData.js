@@ -2,8 +2,8 @@ export const data=[
 
     {
         id:1,
-        // cover:"https://cdn.bangladeshscenictours.com/wp-content/uploads/2019/11/Chittagong-Hill-Tracts.jpg",
-        cover:"./images/chittagong.JPG",
+        // cover:"./images/chittagong.JPG",
+        cover: "https://scontent.frtm1-2.fna.fbcdn.net/v/t39.30808-6/301613857_3395114974104247_197268537579026543_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=a73e89&_nc_ohc=wV0bTEKU3k8AX9vDHT3&_nc_ht=scontent.frtm1-2.fna&oh=00_AfBWUqM2hCj7C1y6E-YXNlevWfQcJaY_BAqRDCnAoJgNJg&oe=65E5B730", 
         title:"Beautiful Bangladesh🇧🇩",
         location:"Rangpur, Bangladesh",
         time:"12-01-2018 .🥐 10 min to read",
@@ -14,7 +14,8 @@ export const data=[
 
     {
         id:2,
-        cover:"./images/keukenof.jpg",
+        //cover:"./images/keukenof.jpg", 
+        cover:"https://scontent.frtm1-1.fna.fbcdn.net/v/t39.30808-6/282015868_3319633358319076_2719512640493689808_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=a73e89&_nc_ohc=RGTlPpDr4XgAX9dnC82&_nc_ht=scontent.frtm1-1.fna&oh=00_AfApvoPCA6Cy6PkZL0L00KwedXHmXbmTvV3xMu6sz2NjKA&oe=65E617AA",
         title:"The Country of Tulips🇳🇱",
         location:"Keukenof, The Netherlands",
         time:"12-01-2018 .🥐 10 min to read",
@@ -26,7 +27,8 @@ export const data=[
 
     {
         id:3,
-        cover:"./images/chocolate.jpg",
+        // cover:"./images/chocolate.jpg",
+        cover:"https://scontent-ams4-1.xx.fbcdn.net/v/t39.30808-6/317565997_3480891352193275_3542515646727741604_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=a73e89&_nc_ohc=PqsicHFAAg4AX-DiREk&_nc_ht=scontent-ams4-1.xx&oh=00_AfA0xJUxgHpToY3z_AW0EYfu4fqiC6CZopfVl-yQlNg4Zw&oe=65E6A19D",
         title:"Chocolate country?🇩🇪",
         location:"Brussels, Belgium",
         time:"12-01-2018 .  🍱 10 min to read",
@@ -35,7 +37,8 @@ export const data=[
     },
     {
         id:4,
-        cover:"./images/dinant1.jpg",
+        // cover:"./images/dinant1.jpg",
+        cover:"https://scontent-ams2-1.xx.fbcdn.net/v/t39.30808-6/321356216_911423030229835_3324138299983274518_n.jpg?stp=cp6_dst-jpg&_nc_cat=111&ccb=1-7&_nc_sid=a73e89&_nc_ohc=01CwK1hCFA4AX_oapFn&_nc_ht=scontent-ams2-1.xx&oh=00_AfARJby4eeaZApQKNaZd5V_BqP7YHp_d7-BRuvhhzF5_ug&oe=65E6B5BC",
         title:"Mountainous Dinat🇩🇪",
         location:"Dinut, Belgium",
         time:"12-01-2018 .  🍱 10 min to read",
@@ -44,7 +47,8 @@ export const data=[
     },
     {
         id:5,
-        cover:"./images/luxembourgCo.jpg",
+        // cover:"./images/luxembourgCo.jpg",
+        cover:"https://scontent.frtm1-1.fna.fbcdn.net/v/t39.30808-6/335175694_127477973601703_6371032259149028390_n.jpg?stp=cp6_dst-jpg&_nc_cat=102&ccb=1-7&_nc_sid=a73e89&_nc_ohc=foolaQr7-PQAX8Hsdpo&_nc_ht=scontent.frtm1-1.fna&oh=00_AfCAK-0vUHrxI2uQLlMQ08txvxSvdu_e0D8f_z-wMJUmwg&oe=65E5AF6B",
         title:"Luxury Lux🇱🇺",
         location:"Old Town, Luxemburg",
         time:"27-03-2022 .  🍱 10 min to read",
@@ -54,7 +58,8 @@ export const data=[
 
     {
         id:6,
-        cover:"./images/novasky.jpg",
+        // cover:"./images/novasky.jpg",
+        cover:"https://scontent.frtm1-1.fna.fbcdn.net/v/t39.30808-6/387839700_3709885142627227_3256290817221358149_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=a73e89&_nc_ohc=ak-2jkZe-yYAX_hr-9i&_nc_oc=AQk51a67krtlXoKl8eFhgvbO1QUGHXHGEnuSea6O28B13ZPuMnjNDIzZkIXE8jsTRl8&_nc_ht=scontent.frtm1-1.fna&oh=00_AfB_y0LvMFL09Qc6_a1LbUDBJE4gxaPyat8xmb9JCHkHlQ&oe=65E6D536",
         title:"Prussia of Balkans🇮🇹",
         location:"Sofia, Bulgaria",
         time:"21-11-2023 .  🍱 10 min to read",

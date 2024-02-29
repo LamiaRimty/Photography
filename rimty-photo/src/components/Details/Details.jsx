@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { data } from "../../assets/data/blogData";
-import { BsPencilSquare } from "react-icons/bs";
-import { AiOutlineDelete } from "react-icons/ai";
 import { AiOutlineClockCircle } from "react-icons/ai";
 import { IoLocation } from "react-icons/io5";
 import "./Details.css";
@@ -30,29 +28,14 @@ function Details() {
           >
             <div className=" overflow-hidden">
               <div className="left">
-                {/* <div class="left container px-5"> */}
-                <img
+                {/* <img
                   src={blogs.cover}
                   className="img-fluid detail-img border rounded-3 shadow-lg mb-4"
                   alt="details-img"
-                  // width="700"
-                  // height="500"
+                  width="700"
+                  height="500"
                   loading="lazy"
-                  onError={(e) => {
-                    e.target.src = "placeholder-image-url.jpg"; // Provide a URL to a placeholder image
-                  }}
-                />
-              </div>
-              <div className="right">
-                <div className="buttons">
-                  <button className="button  me-sm-3">
-                    <BsPencilSquare />
-                  </button>
-
-                  <button className="button me-sm-3">
-                    <AiOutlineDelete />
-                  </button>
-                </div>
+                /> */}
               </div>
             </div>
 

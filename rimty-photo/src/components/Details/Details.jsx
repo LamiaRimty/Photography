@@ -34,10 +34,13 @@ function Details() {
                 <img
                   src={blogs.cover}
                   className="img-fluid detail-img border rounded-3 shadow-lg mb-4"
-                  alt=""
+                  alt="details-img"
                   // width="700"
                   // height="500"
                   loading="lazy"
+                  onError={(e) => {
+                    e.target.src = "placeholder-image-url.jpg"; // Provide a URL to a placeholder image
+                  }}
                 />
               </div>
               <div className="right">

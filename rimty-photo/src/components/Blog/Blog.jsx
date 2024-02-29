@@ -27,7 +27,7 @@ function Blog() {
                     alt=""
                   ></img>
                   <div className="card-body">
-                    <Link to={`details/${item.id}`} className="link">
+                    <Link to={`/details/${item.id}`} className="link">
                       <h3 className="title">{item.title}</h3>
                     </Link>
                     <span className="location">

@@ -18,25 +18,28 @@ function Blog() {
           <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
             {data.map((item) => (
               <div className="col">
-                <div className="card cardItems shadow-sm " key={item.id}>
-                  <img
-                    className="bd-placeholder-img card-img-top"
-                    width="80%"
-                    height="300"
-                    src={item.cover}
-                    alt=""
-                  ></img>
-                  <div className="card-body">
-                    <Link to={`/details/${item.id}`} className="link">
-                      <h3 className="title">{item.title}</h3>
-                    </Link>
-                    <span className="location">
-                      <IoLocation />
-                      {item.location}
-                    </span>
-                    <h5 className="qoute">{item.qoute}</h5>
-                    <div className="d-flex justify-content-between align-items-center">
-                      {/* <div class="btn-group">
+                <div className="main animate__animated animate__zoomInUp">
+                  <ul className="cards">
+                    <div className="cardItems shadow-sm " key={item.id}>
+                      <div className="card">
+                        <img
+                          className="bd-placeholder-img card-image-top"
+                          width="80%"
+                          height="300"
+                          src={item.cover}
+                          alt=""
+                        ></img>
+                        <div className="card-body">
+                          <Link to={`/details/${item.id}`} className="link">
+                            <h3 className="title">{item.title}</h3>
+                          </Link>
+                          <span className="location">
+                            <IoLocation />
+                            {item.location}
+                          </span>
+                          <h5 className="qoute">{item.qoute}</h5>
+                          <div className="d-flex justify-content-between align-items-center">
+                            {/* <div class="btn-group">
                         <Link to="/blogId">
                           <button
                             type="button"
@@ -53,13 +56,16 @@ function Blog() {
                           Edit
                         </button>
                       </div> */}
-                      <small className="text-body-secondary">
-                        {" "}
-                        <AiOutlineClockCircle className="clock-icon" />{" "}
-                        {item.time}
-                      </small>
+                            <small className="text-body-secondary">
+                              {" "}
+                              <AiOutlineClockCircle className="clock-icon" />{" "}
+                              {item.time}
+                            </small>
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                  </div>
+                  </ul>
                 </div>
               </div>
             ))}
